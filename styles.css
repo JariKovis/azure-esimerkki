@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+  .carousel-inner {
+    padding: 7%;
+  }
+  .elementti {
+    text-align: center;
+  }
+}
+.container {
+  max-width: 80%;
+}
+
+/* header*/
+header {
+  text-align: center;
+}
+
+/*navi*/
+
+#navi {
+  font-size: x-large;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+}
+
+/*hakemus*/
+form {
+  text-align: left;
+}
+
+#hakemusotsikko {
+  border-bottom: black 2px solid;
+}
+#lomake {
+  border-left: black 2px solid;
+  border-right: black 2px solid;
+  padding: 4%;
+}
+/*sisältö*/
+.teksti {
+  padding: 3%;
+}
+.kuva {
+  padding: 3%;
+}
+
+#duunit {
+  padding-left: 5%;
+}
+/*footer*/
+
+footer {
+  border-top: black 2px solid;
+  text-align: center;
+}
+
+.carousel-control-prev {
+  left: -15%;
+  width: 10%;
+  background-color: rgba(33, 169, 197, 255);
+  opacity: 100%;
+}
+.carousel-control-next {
+  right: -15%;
+  background-color: rgba(33, 169, 197, 255);
+  width: 10%;
+  opacity: 100%;
+}
